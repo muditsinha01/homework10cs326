@@ -1,0 +1,29 @@
+<html lang="en">
+    <link href="hw.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <head>
+        <title>Chez 326 Menu Configuration</title>
+    </head>
+    <body>
+        <h1>Chez 326 Menu Configuration</h1>
+        <p>The purpose of this page is to allow entree menu items to be dynamically added and removed from the entree list.</p>
+        <form action="" method="POST" id="entries">
+        <div>
+        <label for="entree id"></label>
+        <input type="text" id="entreeId"name="entree id"placeholder="Enter entree id"/>
+        <label for="entree name"></label>
+        <input type="text" id="entreeName"name="entree name"placeholder="Enter entree name"/>
+        <input type="submit" value="Add" id="Add">
+        </div>
+        <div>
+        <label for="menu"><label>
+        <select name ="menu" id="menu">
+            <option value="cfk">Chicken Fried Steak</option>
+            <option value="res">Rib eyed Steak</option>
+            <option value="blt">BLT sandwich</option>
+            <option value="ls">Lentil Soup</option>
+        </select>
+        <input type="submit" value="Delete" id="Delete">
+
+    </body>
+</html>
